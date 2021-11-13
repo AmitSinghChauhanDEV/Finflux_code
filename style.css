@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*common*/
+.inner_div{
+    margin: 0px 160px;
+}
+
+.f_div_outer{
+    background-color: rgb(238, 236 , 237);
+}
+.f_div{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.f_contant h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.f_contant span{
+    font-weight: 400;
+}
+
+.blue_heading{
+    font-size: 14px;
+    color: rgb(88, 169, 250);
+    margin-bottom: 20px;
+
+}
+
+.f_contant h2{
+    font-size: 48px;
+    color: rgb(56, 71, 90);
+    margin-bottom: 25px;
+}
+.f_contant button{
+    padding: 10px 30px;
+    color: #fff;
+    background-color: rgb(80, 90, 201);
+    border: none;
+    cursor: pointer;
+}
+.f_line{
+    color: rgb(56, 71, 90);
+    margin-bottom: 30px;
+}
+
+.f_img{
+    height: 450px;
+    width: 450px;
+}
+.f_img img{
+    height: 450px;
+    width: 450px;
+}
+.hr_div{
+    margin: 0px 85px; 
+}
+.hr_div hr{
+    color: rgb(163, 185, 198);
+}
+
+.s_div{
+    /* border: 1px solid black; */
+    padding: 130px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s_contant{
+    margin-left: 105px;
+}
+.s_contant h2{
+    font-size: 48px;
+    color: rgb(56, 71, 90);
+    margin-bottom: 25px;
+}
+
+.t_div{
+    /* border: 1px solid black; */
+    padding: 150px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.t_contant{
+    margin-right: 105px;
+}
+.t_contant h2{
+    font-size: 47px;
+    color: rgb(56, 71, 90);
+    margin-bottom: 25px;
+    
+}
+
+.company_logos{
+    background-color: rgb(251, 251, 251);
+}
+.company_logos_inner{
+    padding: 50px 0;
+}
+.company_logos_head{
+    display: table;
+    margin: 0 auto; 
+    padding: 0px 0px 50px 0px;
+    
+}
+
+.comp_logo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.c_logo{
+    padding: 15px 35px;
+    color:rgb(174, 174, 174);
+    background-color: rgb(244, 244, 244);
+    border: none;
+}
+.c_logo span{
+    font-weight: 500;
+}
+
+.main_icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_div i{
+    font-size: 25px;
+    background-color: rgb(241, 242, 244);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 50%;
+}
+.icon_contant{
+    margin: 40px 20px;
+}
+.content h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(56, 71, 90);
+}
+.content p{
+    color: rgb(56, 71, 90);
+    line-height: 1.6;
+}
+
+.testimonial{
+    background-color: rgb(251, 251, 251);
+}
+
+.port_img{
+    
+    display: table;
+    margin: 0 auto; 
+}
+.port_img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.port_contant{
+    text-align: center;
+   
+}
+.port_star{
+    display: flex;
+    width: fit-content;
+    margin: 30px auto 0px;
+}
+.port_star i{
+    margin: 0px 5px;
+}
+.port_contant h1{
+    color: rgb(176, 176, 176);
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0;
+    font-style: italic;
+}
+.port_contant h3{
+    color: rgb(56, 71, 90);
+}
+.testi_inner{
+    padding: 50px 0;
+}
+.footer_inner{
+    padding: 50px 0;
+    text-align: center;
+}
+footer{
+    background-color: rgb(30, 30, 30);
+}
+.footer_inner h1{
+    color: #fff;
+    margin: 20px 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+.footer_inner p{
+    color: rgb(237, 237 , 237);
+    margin: 30px 0;
+}
+
+.footer_inner button{
+    padding: 10px 30px;
+    color: #fff;
+    background-color: rgb(80, 90, 201);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.footer_inner h4{
+    color: rgb(207,207,207);
+    font-weight: 100;
+}
+
+
+/*Responsive imgaes*/
+
+@media(max-width: 991px){
+    .f_img {
+        height: 250px;
+        width: 250px;
+    }
+    .f_img img{
+        height: 250px;
+        width: 250px;
+    }
+
+    .comp_logo{
+        display: block;
+    }
+    .c_logo{
+        padding: 20px 12px;
+        margin: 10px 0px;
+    }
+
+    .main_icon{
+        display: block;
+    }
+}
+
+
